@@ -21,7 +21,7 @@ This Terraform project creates a highly available infrastructure on AWS featurin
 - **Auto Scaling Group (ASG)** Automatically scales the number of EC2 instances based on CPU utilization.
 - **EC2 Instances** Host the web application (Apache HTTPD) and serve dynamic content.
 
-## How It Works
+## How_It_Works
 - **User Request** A user accesses the application via the ALB DNS name.
 - **Load Balancing** The ALB routes the request to one of the healthy EC2 instances.
 - **Dynamic Response** The instance serves an HTML page with a custom message and its private IP.
