@@ -3,6 +3,10 @@
 ![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
 
+## Demo
+
+![Demo](/assetes/Record.gif)
+
 ## Table of Contents
 
 - [Overview](#Overview)
@@ -77,8 +81,6 @@ This Terraform project creates a highly available infrastructure on AWS featurin
 +---------------------------------+
 
 ```
-
-![Demo](/assetes/Record.gif)
 
 ## Installation
 
