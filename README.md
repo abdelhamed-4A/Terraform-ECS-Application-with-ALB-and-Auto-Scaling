@@ -6,7 +6,7 @@
 ## Table of Contents
 
 - [Overview](#Overview)
-- [How_It_Works](#How It Works)
+- [How_It_Works](#How_It_Works)
 - [Features](#Features)
 - [Prerequisites](#Prerequisites)
 - [Architecture](#Architecture)
@@ -88,8 +88,8 @@ This Terraform project creates a highly available infrastructure on AWS featurin
 
 3. **Clone the Repository**: Clone this repository to your local machine.
     ```sh
-    git clone https://github.com/yourusername/aws-provisioning-with-terraform.git
-    cd aws-provisioning-with-terraform
+    git clone https://github.com/abdelhamed-4A/Terraform-ECS-Application-with-ALB-and-Auto-Scaling.git
+    cd Terraform-ECS-Application-with-ALB-and-Auto-Scaling
     ```
 
 4. **Initialize Terraform**: Initialize the Terraform configuration.
