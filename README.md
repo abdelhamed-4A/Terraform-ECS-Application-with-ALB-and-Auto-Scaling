@@ -49,38 +49,8 @@ This Terraform project creates a highly available infrastructure on AWS featurin
   - ELBv2
 
 ## Architecture
-```bash
-+-----------------+
-            |   Internet      |
-            +--------+--------+
-                     |
-            +--------v--------+
-            |  Application    |
-            |  Load Balancer  |
-            +--------+--------+
-                     |
-        +------------+------------+
-        |                         |
-+-------v-------+        +--------v-------+
-|  EC2 Instance |        |  EC2 Instance  |
-|  (AZ 1a)      |        |  (AZ 1b)       |
-+-------+-------+        +--------+-------+
-        |                         |
-+-------v-------+        +--------v-------+
-|   Private     |        |   Private      |
-|   Subnet      |        |   Subnet       |
-+-------+-------+        +--------+-------+
-        |                         |
-+-------v-------+        +--------v-------+
-|    NAT GW     |        |    NAT GW      |
-+-------+-------+        +--------+-------+
-        |                         |
-+-------v-----------------v-------+
-|              VPC                |
-|         (10.0.0.0/16)           |
-+---------------------------------+
 
-```
+![Architecture](/assetes/day2D.jpg)
 
 ## Installation
 
